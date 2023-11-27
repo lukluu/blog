@@ -2,9 +2,10 @@
 
 namespace Database\Seeders;
 
-use App\Models\Category;
 use App\Models\Post;
+use App\Models\Saya;
 use App\Models\User;
+use App\Models\Category;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -40,6 +41,11 @@ class DatabaseSeeder extends Seeder
         Category::create([
             'name' => 'Engineer',
             'slug' => 'engineer'
+        ]);
+        Saya::create([
+            'nama' => 'lukman',
+            'nim' => 'E1E121004',
+            'jurusan' => 'Informatika'
         ]);
     }
 }
