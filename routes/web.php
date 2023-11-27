@@ -36,3 +36,11 @@ Route::get('/categories', [CategoryController::class, 'index']);
 //         'category' => Category::all()
 //     ]);
 // });
+Route::get('/authors/', [AuthorController::class, 'index']);
+Route::get('/authors/{author:username}', function (User $author) {
+    return view('posts', [
+        'title' => "post by author : $author->name",
+        "active" => "categories",
+        'posts' => $author->posts->load('category', 'author')
+    ]);
+});
