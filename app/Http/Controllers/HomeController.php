@@ -13,7 +13,7 @@ class HomeController extends Controller
         return view('home', [
             "title" => "Home",
             "active" => "home",
-            "text" => "Selamat datang di Blog Kami",
+            "text" => "Selamat datang di Blog Kelompok 3",
             "gambar" => Storage::url('1.jpg')
         ]);
     }
