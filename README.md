@@ -1,3 +1,32 @@
+KELOMPOK 3
+ARSITEKTUR MVC
+1. E1E121004 LA ODE LUKMANA
+2. E1E121018 ZAHRA VEBRYAN MAHARANI
+3. E1E121020 ANDI NURHIDAYA
+4. E1E121040 SUMIARTIN
+5. E1E121067 MUH INDRAWAN PRATAMA
+6. E1E121083 PUSPITA MAHARANI HASAN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
