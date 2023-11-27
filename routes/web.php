@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\SayaController;
 use App\Http\Controllers\AuthorController;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,43 +21,5 @@ use App\Http\Controllers\AuthorController;
 |
 */
 
-Route::get('/saya', [SayaController::class, 'index']);
 
-Route::get('/', function () {
-    return view('home', [
-        "title" => "Home",
-        "active" => "home"
-    ]);
-});
-
-
-Route::get('/about', function () {
-    return view('about', [
-        "title" => "About",
-        "active" => "about",
-    ]);
-});
-Route::get('/posts', [PostController::class, 'index']);
-Route::get('/posts/{post:slug}', [PostController::class, 'show']);
-Route::get('/categories/', function () {
-    return view('categories', [
-        'title' => 'Post Categories',
-        "active" => "categories",
-        'category' => Category::all()
-    ]);
-});
-Route::get('/categories/{category:slug}', function (Category $category) {
-    return view('posts', [
-        'title' => "post by Category : $category->name",
-        "active" => "categories",
-        'posts' => $category->posts->load('category', 'author')
-    ]);
-});
-Route::get('/authors/', [AuthorController::class, 'index']);
-Route::get('/authors/{author:username}', function (User $author) {
-    return view('posts', [
-        'title' => "post by author : $author->name",
-        "active" => "categories",
-        'posts' => $author->posts->load('category', 'author')
-    ]);
-});
+// Route::get('/', [HomeController::class, 'index']);

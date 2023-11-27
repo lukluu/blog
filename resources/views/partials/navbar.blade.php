@@ -1,8 +1,8 @@
-<nav class="navbar navbar-expand-lg text-white bg bg-danger">
+<nav class="navbar navbar-expand-lg text-white bg-info">
     <div class="container">
-        <a class="navbar-brand fw-bold" href="/">My Blog</a>
+        <a class="navbar-brand fw-bold" href="/">MVC Blog</a>
         <div class="collapse navbar-collapse  d-flex justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav text-light">
                 <li class="nav-item">
                     <a class="nav-link {{ ($active === 'home') ? 'active fw-medium' : '' }} " href="/">Home</a>
                 </li>
