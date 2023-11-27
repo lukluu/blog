@@ -1,8 +1,10 @@
 @extends('layouts.main')
 
 @section('container')
-<h1>halaman {{ $title }}</h1>
+<h1 class="text-center">Halaman {{ $title }}</h1>
 @foreach ($authors as $author)
-<h1><a href="/authors/{{ $author->username }}">{{ $author->name }}</a></h1>
+<div class="list-group">
+  <a href="/authors/{{ $author->username }}" class="list-group-item list-group-item-action">{{ $author->name }}</a>
+</div>
 @endforeach
 @endsection
