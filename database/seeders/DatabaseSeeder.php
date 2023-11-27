@@ -30,18 +30,18 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'taufik@gmail.com',
         //     'password' => bcrypt('123')
         // ]);
-        // Category::create([
-        //     'name' => 'Web Programming',
-        //     'slug' => 'web-programming'
-        // ]);
-        // Category::create([
-        //     'name' => 'Personal',
-        //     'slug' => 'personal'
-        // ]);
-        // Category::create([
-        //     'name' => 'Engineer',
-        //     'slug' => 'engineer'
-        // ]);
+        Category::create([
+            'name' => 'Web Programming',
+            'slug' => 'web-programming'
+        ]);
+        Category::create([
+            'name' => 'Personal',
+            'slug' => 'personal'
+        ]);
+        Category::create([
+            'name' => 'Engineer',
+            'slug' => 'engineer'
+        ]);
         // Saya::create([
         //     'nama' => 'lukman',
         //     'nim' => 'E1E121004',

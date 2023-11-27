@@ -25,3 +25,12 @@ use App\Http\Controllers\HomeController;
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/posts', [PostController::class, 'index']);
 Route::get('/posts/{post:slug}', [PostController::class, 'show']);
+Route::get('/categories', [CategoryController::class, 'index']);
+
+// Route::get('/categories/', function () {
+//     return view('categories', [
+//         'title' => 'Post Categories',
+//         "active" => "categories",
+//         'category' => Category::all()
+//     ]);
+// });
