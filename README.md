@@ -6,7 +6,7 @@ ARSITEKTUR MVC
 3. E1E121020 ANDI NURHIDAYA
 4. E1E121040 SUMIARTIN (SELESAI)
 5. E1E121067 MUH INDRAWAN PRATAMA
-6. E1E121083 PUSPITA MAHARANI HASAN
+6. E1E121083 PUSPITA MAHARANI HASAN (SELESAI)
 7. E1E121084 PUTRI ELISYA
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
